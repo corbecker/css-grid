@@ -7,17 +7,20 @@
 */
 :root {
   --white: #fdfdfd;
-  --black: #272727; }
+  --black: #272727;
+}
 
 html {
   /* border-box box model allows us to add padding and border to our elements without increasing their size */
   box-sizing: border-box;
   /* A system font stack so things load nice and quick! */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 900;
   font-size: 10px;
   color: var(--black);
-  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07); }
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+}
 
 /*
   WAT IS THIS?!
@@ -27,7 +30,8 @@ html {
 *,
 *:before,
 *:after {
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
 body {
   background-image: url("./images/topography.svg");
@@ -36,7 +40,8 @@ body {
   margin: 50px;
   /* background: white; */
   background-attachment: fixed;
-  letter-spacing: -1px; }
+  letter-spacing: -1px;
+}
 
 h1,
 h2,
@@ -44,8 +49,8 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0 0 5px 0; }
-
+  margin: 0 0 5px 0;
+}
 /* Each item in our grid will contain numbers */
 .item {
   /* We center the contents of these items. You can also do this with flexbox too! */
@@ -56,10 +61,9 @@ h6 {
   border: 5px solid rgba(0, 0, 0, 0.03);
   border-radius: 3px;
   font-size: 35px;
-  background-color: var(--white);
-  /* best colour */ }
+  background-color: var(--white); /* best colour */
+}
 
 .item p {
-  margin: 0 0 5px 0; }
-
-/*# sourceMappingURL=style.css.map */
+  margin: 0 0 5px 0;
+}
